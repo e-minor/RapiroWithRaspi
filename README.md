@@ -105,7 +105,7 @@ http://rapirorpiIp/cgi-bin/test.py
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
-  python /home/pi/rapiro/server.py &
+  python /home/pi/RapiroWithRaspi/server.py &
 fi
 <pre\>
 
